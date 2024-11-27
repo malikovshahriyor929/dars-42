@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container2">
+        <div
+          class="flex items-center gap-3 justify-between border-b py-3 border-[#ccc]"
+        >
+          <div class="flex items-center gap-4">
+            <label class="menu min-[1096px]:hidden block" for="check">
+              <img src="./assets/svg/menu.svg" alt="" />
+            </label>
+            <img src="./assets/svg/Logo.svg" alt="" />
+          </div>
+          <div
+            class="flex gap-1 items-center text-[15px] font-medium border-dashed border-prime border-b max-[1520px]:hidden"
+          >
+            <img src="./assets/svg/location.svg" alt="" />
+            <p>Йошкар-Ола</p>
+          </div>
+          <input class="hidden" id="check" type="checkbox" />
+          <ul class="links flex gap-3 items-center text-[15px] text-text">
+            <li><a href="/">О компании</a></li>
+            <li><a href="/">Блог</a></li>
+            <li><a href="/">Частые вопросы</a></li>
+            <li><a href="/">Сервис и гарантия</a></li>
+            <li><a href="/">Доставка и оплата</a></li>
+            <li><a href="/">Дилерам</a></li>
+            <li><a href="/">Контакты</a></li>
+            <li>
+              <a class="max-[1096px]:block hidden navbar_mis" href="/"
+                >Металлоискатели</a
+              >
+            </li>
+            <li>
+              <a class="max-[1096px]:block hidden navbar_mis" href="/"
+                >Оборудование для безопасности</a
+              >
+            </li>
+            <li>
+              <a class="max-[1096px]:block hidden navbar_mis" href="/"
+                >Тактические металлоискатели</a
+              >
+            </li>
+            <li>
+              <a class="max-[1096px]:block hidden navbar_mis" href="/"
+                >Очистители воздуха</a
+              >
+            </li>
+            <li>
+              <a class="max-[1096px]:block hidden navbar_mis" href="/"
+                >Очистители воздуха</a
+              >
+            </li>
+            <li>
+              <a class="max-[1096px]:block hidden navbar_mis" href="/"
+                >Дополнения и аксессуары</a
+              >
+            </li>
+            <label class="close" for="check">
+              <img src="./assets/svg/x.svg" alt="" />
+            </label>
+          </ul>
+          <div class="flex flex-col max-[1278px]:hidden">
+            <a
+              class="font-medium text-[20px] text-black"
+              href="tel:8 800 444-00-27 "
+              >8 800 444-00-27</a
+            >
+            <p class="text-[11px] text-[#555]">бесплатно по России</p>
+          </div>
+          <button
+            class="rounded-lg border border-black px-3 py-3 max-[500px]:hidden"
+          >
+            Заказать звонок
+          </button>
+          <div class="max-[500px]:flex gap-3 hidden">
+            <img src="./assets/svg/phone.svg" alt="" />
+            <img src="./assets/svg/cart.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between max-[1192px]:hidden gap-4 py-2"
+        >
+          <ul class="flex gap-4 text-[16px] text-text font-medium">
+            <li><a class="" href="/">Металлоискатели</a></li>
+            <li><a href="/">Оборудование для безопасности</a></li>
+            <li><a href="/">Тактические металлоискатели</a></li>
+            <li><a href="/">Очистители воздуха</a></li>
+            <li><a href="/">Дополнения и аксессуары</a></li>
+          </ul>
+          <div class="flex items-center gap-4">
+            <img src="./assets/svg/login.svg" alt="" />
+            <img src="./assets/svg/cart.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="py-5 bg-[#f2f2f2]">
+      <div class="container2 bg-white rounded-3xl pl-8 max-[854px]:pl-0">
+        <div class="flex items-center gap-5 max-[854px]:flex-col-reverse">
+          <div class="flex flex-col gap-5">
+            <h1
+              class="text-black text-[48px] max-w-[423px] font-medium max-[1348px]:text-[35px] max-[1001px]:text-[28px] max-[821px]:text-[23px]"
+            >
+              Откройте для себя мир поиска и безопасности
+            </h1>
+            <p>Все о компании «Метаскан» за одну минуту</p>
+            <button
+              class="bg-black rounded-lg py-3 px-5 font-medium text-white text-[18px]"
+            >
+              Смотреть видео
+            </button>
+          </div>
+          <div class="max-[854px]:w-fit object-cover">
+            <img src="./assets/img/slider right.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container2">
+        <!-- <div
+          class="bg-[#010400] p-5 rounded-2xl flex items-center relative z-50"
+        >
+          <div class="static z-50 items-start flex flex-col gap-3">
+            <p class="text-[38px] text-white font-black">Распродажа</p>
+            <p class="text-[22px] text-white font-medium max-w-[195px]">
+              Сэкономьте на покупке грунтовые металлоискатели
+            </p>
+            <p
+              class="text-[20px] rounded-lg bg-prime p-3 text-black font-black"
+            >
+              до 45%
+            </p>
+          </div>
+          <img
+            class="absolute z-10 top-[-50px] right-0"
+            src="./assets/img/card2.png"
+            alt=""
+          />
+        </div> -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="bg-[#010400] p-5 rounded-2xl flex items-center relative z-50"
+              >
+                <div class="static z-50 items-start flex flex-col gap-3">
+                  <p class="text-[38px] text-white font-black">Распродажа</p>
+                  <p class="text-[22px] text-white font-medium max-w-[195px]">
+                    Сэкономьте на покупке грунтовые металлоискатели
+                  </p>
+                  <p
+                    class="text-[20px] rounded-lg bg-prime p-3 text-black font-black"
+                  >
+                    до 45%
+                  </p>
+                </div>
+                <img
+                  class="absolute z-10 top-0 right-0"
+                  src="./assets/img/card2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="card3 p-5 rounded-2xl flex items-center relative z-50 h-[307px]"
+              >
+                <div class="static z-50 items-start flex flex-col gap-3">
+                  <p class="text-[38px] text-[#31d8ea] font-black">
+                    Распродажа
+                  </p>
+                  <p
+                    class="text-[22px] text-[#31d8ea] font-medium max-w-[195px]"
+                  >
+                    поиск на глубинах до 200 метров
+                  </p>
+                </div>
+                <img
+                  class="absolute z-10 bottom-0 right-0"
+                  src="./assets/img/card3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg-[#010400] p-5 rounded-2xl flex items-start px-3 relative z-50"
+              >
+                <div
+                  class="static z-50 items-start flex flex-col gap-3 h-[268px]"
+                >
+                  <div class="flex flex-col items-start max-[450px]:hidden">
+                    <p
+                      class="text-[18px] rounded-[8px_8px_0_0] bg-prime p-1 text-black font-black"
+                    >
+                      2022
+                    </p>
+                    <p
+                      class="text-[20px] rounded-[0_8px_8px_8px] bg-prime p-2 text-black font-black"
+                    >
+                      Новинка
+                    </p>
+                  </div>
+                  <p class="text-[38px] text-white font-black">
+                    Alfamarine 5000
+                  </p>
+                  <p class="text-[22px] text-white font-medium max-w-[195px]">
+                    Тактический металлоискатель для поиска мин
+                  </p>
+                </div>
+                <img
+                  class="absolute z-10 top-0 right-0"
+                  src="./assets/img/card4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/1.js"></script>
+    <script src="./js/2.js"></script>
+    <script src="./js/3.js"></script>
+    <script src="./js/4.js"></script>
+    <script src="./js/5.js"></script>
+    <script src="./js/6.js"></script>
+    <script src="./js/7.js"></script>
+    <script src="./js/8.js"></script>
+    <script src="./js/9.js"></script>
+    <script src="./js/10.js"></script>
+    <script src="./js/11.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+// let max = alert("4ta son yoz shuni max qiymatini topib beraman")
+// let max1 = prompt("1 chis")
+// let max2 = prompt("2 chis")
+// let max3 = prompt("3 chis")
+// let max4 = prompt("4 chis")
+// console.log(Math.max(max1,max2,max3,max4))
