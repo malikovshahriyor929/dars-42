@@ -13,3 +13,11 @@
 //     console.log(random + " "+ "juft son")
 // }
 // console.log(random)
+// num = Math.round(Math.random()*100)
+// // console.log(num % 2 == 0)
+// if(num % 2 == 0){
+// console.log("juft")
+// }else{
+//     console.log("toq")
+// }
+// console.log(num)
